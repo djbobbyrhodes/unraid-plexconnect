@@ -14,7 +14,8 @@ PlexConnect uses port 53, 80 and 443, so you must move the unRAID management int
 
 **Usage:**
 
-```docker run -d \
+```
+docker run -d \
 --host="NAME" \
 --name="plexconnect" \
 -v /path/to/plexconnect:/opt/plexconnect \
