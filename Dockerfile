@@ -1,3 +1,4 @@
+LABEL maintainer="ama @ getmail.no"
 FROM phusion/baseimage:0.9.17
 
 # Set correct environment variables
