@@ -25,7 +25,7 @@ RUN apt-get update -q
 RUN apt-get install -qy python python-dev python-imaging wget unzip git
 
 # add volume for persistant config
-VOLUME /mnt/user/appdata/PlexConnect
+VOLUME /mnt/user/appdata/plexconnect
 
 # Add PlexConnect to runit
 RUN mkdir /etc/service/plexconnect
